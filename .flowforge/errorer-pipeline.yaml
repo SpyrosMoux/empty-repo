@@ -3,7 +3,6 @@ variables:
   IMAGE_NAME: jacksndecks-api
 
 jobs:
-    steps:
       - name: Checkout Repository
         run: |
           git clone https://github.com/SpyrosMoux/empty-repo.git
