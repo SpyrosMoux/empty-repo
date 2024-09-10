@@ -1,0 +1,10 @@
+variables:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: jacksndecks-api
+
+jobs:
+  - name: Checkout Repository
+    steps:
+      - name: Checkout Repository
+        run: |
+          sleep 30
