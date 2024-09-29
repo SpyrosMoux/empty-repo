@@ -3,8 +3,9 @@ jobs:
     steps:
       - name: Checkout Repository
         run: |
-          git checkout https://github.com/spyrosmoux/empty-repo
+          git clone https://github.com/spyrosmoux/empty-repo
 
       - name: Build
         run: |
+          cd empty-repo
           docker build -t empty-repo .
