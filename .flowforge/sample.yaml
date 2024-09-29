@@ -3,7 +3,7 @@ jobs:
     steps:
       - name: Checkout Repository
         run: |
-          git clone https://github.com/spyrosmoux/empty-repo
+          git clone https://github.com/SpyrosMoux/empty-repo.git
 
       - name: Build
         run: |
