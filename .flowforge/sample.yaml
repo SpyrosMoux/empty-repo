@@ -1,3 +1,13 @@
+trigger:
+  branch:
+    - "*" # Run on any commit
+    - "main" # Run only on main
+    - "none" # Never run from commits
+  pr:
+    - "*" # By default all PRs will trigger the pipeline on the main (default) branch
+    - "main" # Run only when PR is opened on main branch
+    - "none" # Never run from PRs
+
 jobs:
   - name: Build Application
     steps:
