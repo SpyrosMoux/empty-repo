@@ -10,4 +10,5 @@ jobs:
           cd empty-repo/
           pwd
           ls -las
+          git checkout origin/test
           docker build -t empty-repo .
