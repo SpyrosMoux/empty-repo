@@ -7,5 +7,7 @@ jobs:
 
       - name: Build
         run: |
-          cd empty-repo
+          cd empty-repo/
+          pwd
+          ls -las
           docker build -t empty-repo .
