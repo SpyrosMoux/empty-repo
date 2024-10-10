@@ -1,11 +1,7 @@
 triggers:
   branch:
-    - "*"
     - "main"
-    - "none"
   pr:
-    - "*"
-    - "main"
     - "none"
 
 jobs:
@@ -20,5 +16,5 @@ jobs:
           cd empty-repo/
           pwd
           ls -las
-          git checkout origin/test
+          git checkout origin/test-2
           docker build -t empty-repo .
