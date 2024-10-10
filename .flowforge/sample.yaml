@@ -9,12 +9,4 @@ jobs:
     steps:
       - name: Checkout Repository
         run: |
-          git clone https://github.com/SpyrosMoux/empty-repo.git
-
-      - name: Build
-        run: |
-          cd empty-repo/
-          pwd
-          ls -las
-          git checkout origin/test-2
-          docker build -t empty-repo .
+          sleep 30
