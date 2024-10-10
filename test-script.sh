@@ -5,5 +5,5 @@ count=$1
 i=0
 while [ $i -lt $count ]; do
   git commit -am "asdfas" --allow-empty && git push
-  i=$i+1
+  $(i++)
 done
