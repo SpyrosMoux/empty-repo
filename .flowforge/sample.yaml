@@ -1,6 +1,6 @@
 triggers:
   branch:
-    - "main"
+    - "test-2"
   pr:
     - "none"
 
