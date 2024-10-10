@@ -2,6 +2,8 @@
 
 count=$1
 
-for i in {1...$count} ; do
+i=0
+while [ $i -lt $count ]; do
   git commit -am "asdfas" --allow-empty && git push
+  i=$i+1
 done
